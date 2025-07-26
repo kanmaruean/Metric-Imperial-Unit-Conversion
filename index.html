@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-neutral-900 flex flex-row justify-center items-center w-screen h-screen">
+        <section id="main-section">
+            <section class="flex flex-col w-80 h-125 bg-gray-100">
+                <section class="w-full h-85 bg-violet-600 flex flex-col justify-center items-center" id="convert-section">
+                    <span class="text-white font-bold font-sans text-lg">Metric/Imperial Unit Conversion</span>
+                    <input class="w-18 h-13 mt-4 border-gray-300 border-2 rounded-md text-white font-extrabold text-center text-4xl" type="text" name="inputBox" id="inputBox">
+                    <button class="bg-white text-gray-900 px-3 py-1 mt-4 text-xs rounded-sm font-medium hover:cursor-pointer hover:bg-neutral-300" id="convertBtn">Convert</button>
+                    <span class="font-sans font-bold text-xs text-rose-800 mt-2.5" id="errorBtn"></span>
+                </section>
+                <section class="grid grid-rows-11 grid-cols-1 size-full gap-4 px-4" id="result-section">
+                    <div class="grid row-start-2 row-span-3 text-center content-center bg-white" id="blockOne">
+                        <span class="font-sans text-gray-900 font-bold">Length (Meter/Feet)</span>
+                        <span class="text-xs" id="inputLengthOne">0 meter = 0 foot | 0 foot = 0 meter</span>
+                    </div>
+                    <div class="grid row-start-5 row-span-3 text-center content-center bg-white" id="blockTwo">
+                        <span class="font-sans text-gray-900 font-bold">Volume (Liters/Gallons)</span>
+                        <span class="text-xs" id="inputLengthTwo">0 liter = 0 gallon | 0 gallon = 0 liter</span>
+                    </div>
+                    <div class="grid row-start-8 row-span-3 text-center content-center bg-white" id="blockThree">
+                        <span class="font-sans text-gray-900 font-bold">Mass (Kilograms/Pounds)</span>
+                        <span class="text-xs" id="inputLengthThree">0 kilo = 0 pound | 0 pound = 0 kilo</span>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </body>
+    <script src="index.js"></script>
+</html>
