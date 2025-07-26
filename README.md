@@ -19,7 +19,7 @@ Clone the repository: `git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME
 
 Navigate to the project directory: `cd YOUR_REPO_NAME`
 
-Open index.html: Simply open the index.html file in your web browser.
+Open index.html: Simply open the index.html file in your web browser or Go <a href="https://sage-sherbet-3faa4e.netlify.app/">here</a>
 
 ## Project Structure
 
